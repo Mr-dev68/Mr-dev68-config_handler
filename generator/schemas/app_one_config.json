@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "m_cpr1": {
+        "type": "integer",
+        "description": "test variable"
+      },
+      "m_cpr2": {
+        "type": "integer",
+        "description": "test variable"
+      },
+      "m_object": {
+        "type": "object",
+        "properties": {
+          "op1": {
+            "type": "integer",
+            "description": "test  variable"
+          },
+          "op2": {
+            "type": "integer",
+            "description": "test  variable"
+          }
+        },
+        "required": ["op1", "op2"]
+      }
+    },
+    "required": ["m_cpr1", "m_cpr2", "m_object"]
+  }
+  
