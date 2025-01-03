@@ -46,7 +46,7 @@ install(FILES
 
 # Install the export set for use with find_package
 install(EXPORT ${PROJECT_NAME}Targets
-    FILE ConfigHandlerLibraryConfig.cmake
-    DESTINATION lib/cmake/ConfigHandlerLibrary
+    FILE ${PROJECT_NAME}Config.cmake
+    DESTINATION lib/cmake/${PROJECT_NAME}
 )
 

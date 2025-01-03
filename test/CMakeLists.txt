@@ -4,7 +4,7 @@ project(ConfigHandlerTest)
 find_package(nlohmann_json_schema_validator REQUIRED)
 set(CMAKE_PREFIX_PATH "../install")
 
-find_package(ConfigHandlerLibrary REQUIRED)
+find_package(ConfigHandler REQUIRED)
 
 add_executable(test_config_handler test.cpp)
 
